@@ -1,0 +1,15 @@
+apply plugin: 'java'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    compile : 'com.lyden:GMapsFX:2.10.0'
+}
+
+task(run,dependsOn: 'classes', type: JavaExec){
+    main = 'Main'
+    classpath = sourceSets.main.runtimeClasspath
+}

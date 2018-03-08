@@ -1,0 +1,48 @@
+.tab-pane .tab:selected {
+    -fx-background-color: linear-gradient(#207ce5, #207ce5);
+}
+
+.tab .tab-label {
+    -fx-alignment: CENTER;
+    -fx-text-fill: #207ce5;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.tab:selected .tab-label {
+    -fx-alignment: CENTER;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#207ce5, #207ce5);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0.0, 0, 1);
+}
+
+.tab-pane {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#00FFFF, #00FFFF);
+}
+.grid-pane {
+-fx-background-color: linear-gradient(#00FFFF, #00FFFF);
+}
+
+.titled-pane {
+    -fx-text-fill: #000000;
+}
+
+.label {
+    -fx-text-fill: #000000;
+}
+
+.text-area {
+    -fx-text-fill: #000000;
+    -fx-background-color: linear-gradient(#DCDCDC, #DCDCDC);
+
+}
+
+
